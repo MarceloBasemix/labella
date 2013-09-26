@@ -2603,12 +2603,10 @@ margin-left: 6px;
 
 .wpsc_description{
 	color: #960d5d;
-	height: 150px !important;
+	height: 100px !important;
 	position: relative;
 	overflow: hidden;
-	border: 1px solid;
 	display: block;
-	line-height: 16px;	
 }
 
 .wpsc_product_price2{
@@ -3045,10 +3043,10 @@ span.currentprice2, span.pricedisplay2{
 display: none !important;
 }
 .nostock_emailme{
-    margin-top: -130px;
+    /*margin-top: -130px;*/
     position: relative;
     margin-left: 380px;
-    float: left;
+    /*float: left;*/
 }
 
 #nao_estoque{
@@ -3061,12 +3059,16 @@ display: none !important;
 }
 
 #soldoutNovo{
-    width: 180px;
+    width: 200px !important;
     position:relative;
-    /*float:left;
+    float:left;
     /*margin-top: -60px;*/
     margin-left: 20px;
     margin-bottom: 20px;
+	position: relative;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	margin-top: -20px;    
 }
 
 #nao_estoque2{
