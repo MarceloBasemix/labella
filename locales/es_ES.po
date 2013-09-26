@@ -1,0 +1,1384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:7
+#@ mazine
+msgid "Error 404 Not Found"
+msgstr "Error 404"
+
+#: 404.php:10
+#@ mazine
+msgid "Oops. Fail. The page cannot be found."
+msgstr "Error!, la página que busca no se encuentra."
+
+#: 404.php:11
+#@ mazine
+msgid "Please check your URL or use the search form below."
+msgstr "Por favor, revise la URL o realice una búesqueda."
+
+#: archive.php:8
+#, php-format
+#@ mazine
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Archivos diarios: <span>%s</span>"
+
+#: archive.php:10
+#, php-format
+#@ mazine
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Archivos mensuales: <span>%s</span>"
+
+#: archive.php:12
+#, php-format
+#@ mazine
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Archivos anuales: <span>% s</span>"
+
+#: archive.php:14
+#@ mazine
+msgid "Blog Archives"
+msgstr "Archivo de noticias"
+
+#: archive.php:25
+#: category.php:25
+#: index.php:19
+#@ mazine
+#@ default
+msgid "Article"
+msgstr "Artículo"
+
+#: archive.php:27
+#: author.php:43
+#: category.php:27
+#: comments.php:25
+#: home.php:59
+#: index.php:22
+#: page.php:17
+#: single.php:14
+#: single.php:34
+#: tag.php:25
+#@ mazine
+msgid "at"
+msgstr "en"
+
+#: archive.php:27
+#: author.php:43
+#: category.php:27
+#: home.php:59
+#: index.php:22
+#: tag.php:25
+#@ mazine
+msgid "by"
+msgstr "por"
+
+#: archive.php:32
+#@ mazine
+msgid "&nbsp; Read more"
+msgstr "&nbsp; Leer más"
+
+#: archive.php:36
+#: author.php:52
+#: category.php:36
+#: home.php:68
+#: index.php:31
+#: page.php:31
+#: single.php:48
+#: tag.php:34
+#@ mazine
+msgid "Categoies"
+msgstr "Categorías"
+
+#: archive.php:37
+#: author.php:53
+#: category.php:37
+#: home.php:69
+#: index.php:32
+#: page.php:32
+#: single.php:49
+#: tag.php:35
+#@ mazine
+msgid "<b>Tags:</b> "
+msgstr "<b>Etiquetas:</b> "
+
+#: archive.php:40
+#: author.php:56
+#: category.php:40
+#: home.php:72
+#: index.php:35
+#: tag.php:38
+#@ mazine
+msgid "No Comments"
+msgstr "Sin comentarios"
+
+#: archive.php:40
+#: author.php:56
+#: category.php:40
+#: home.php:72
+#: index.php:35
+#: tag.php:38
+#@ mazine
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: archive.php:40
+#: author.php:56
+#: category.php:40
+#: home.php:72
+#: index.php:35
+#: tag.php:38
+#@ mazine
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: archive.php:47
+#: category.php:47
+#: home.php:81
+#: index.php:44
+#: tag.php:45
+#@ mazine
+msgid "There has been an error."
+msgstr "Hubo un error."
+
+#: archive.php:48
+#: category.php:48
+#: home.php:82
+#: index.php:45
+#: tag.php:46
+#@ mazine
+msgid "We apologize for any inconvenience, please"
+msgstr "Disculpe por los inconvenientes ocacionados, por favor"
+
+#: archive.php:48
+#: category.php:48
+#: home.php:82
+#: index.php:45
+#: tag.php:46
+#@ mazine
+msgid "return to the home page"
+msgstr "volver a la página inicial"
+
+#: archive.php:48
+#: category.php:48
+#: home.php:82
+#: index.php:45
+#: tag.php:46
+#@ mazine
+msgid "or use the search form below."
+msgstr "o utilice el formulario de búsqueda."
+
+#: archive.php:55
+#: category.php:55
+#: home.php:92
+#: index.php:55
+#@ mazine
+msgid "<span><span>&laquo; Older Entries</span></span>"
+msgstr "<span><span>&laquo; Atrás</span></span>"
+
+#: archive.php:58
+#: category.php:58
+#: home.php:95
+#: index.php:58
+#@ mazine
+msgid "<span><span>Newer Entries &raquo;</span></span>"
+msgstr "<span><span>Adelante &raquo;</span></span>"
+
+#: author.php:13
+#@ mazine
+msgid "About"
+msgstr "Acerca de"
+
+#: author.php:25
+#@ mazine
+msgid "Recent Posts by"
+msgstr "Noticias recientes por"
+
+#: author.php:48
+#: home.php:64
+#: index.php:27
+#: tag.php:30
+#@ mazine
+msgid "Read more"
+msgstr "Leer más"
+
+#: author.php:63
+#: author.php:80
+#, php-format
+#@ mazine
+msgid "No posts by %s yet."
+msgstr "Aún no hay noticias para %s."
+
+#: author.php:69
+#@ mazine
+msgid "Recent Comments by"
+msgstr "Últimos comentarios por"
+
+#: author.php:77
+#, php-format
+#@ mazine
+msgid "%1$s on %2$s"
+msgstr "%1$s en %2$s"
+
+#: category.php:8
+#, php-format
+#@ mazine
+msgid "Category Archives: %s"
+msgstr "Archivo por categorías: %s"
+
+#: category.php:32
+#@ mazine
+msgid " Read more"
+msgstr "Leer más"
+
+#: comments.php:4
+#@ mazine
+msgid "Please do not load this page directly or we will hunt you down. Thanks and have a great day!"
+msgstr "Por favor, no cargar esta página directamente porque será inhabilitado. Gracias."
+
+#: comments.php:6
+#: page.php:38
+#: single.php:55
+#@ mazine
+msgid "No comments"
+msgstr "Sin comentarios"
+
+#: comments.php:6
+#: page.php:38
+#: single.php:55
+#@ mazine
+msgid "One comment"
+msgstr "Un comentario"
+
+#: comments.php:6
+#: page.php:38
+#: single.php:55
+#@ mazine
+msgid "% comments"
+msgstr "% comentarios"
+
+#: comments.php:31
+#@ mazine
+msgid "Your comment is awaiting approval."
+msgstr "Su comentario está pendiente de aprobación."
+
+#: comments.php:42
+#@ mazine
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: comments.php:54
+#@ mazine
+msgid "No comments yet. You should be kind and add one!"
+msgstr "No hay comentarios todavía. Puede ser el primero en escribir uno!"
+
+#: comments.php:59
+#@ mazine
+msgid "leave a comment"
+msgstr "dejar un comentario"
+
+#: comments.php:61
+#@ mazine
+msgid "Our apologies, you must be"
+msgstr "Disculpe, usted debe ser"
+
+#: comments.php:61
+#@ mazine
+msgid "logged in"
+msgstr "sesión iniciada"
+
+#: comments.php:61
+#@ mazine
+msgid "to post a comment."
+msgstr "para publicar un comentario."
+
+#: comments.php:64
+#@ mazine
+msgid "Logged in as"
+msgstr "Sesión iniciada como"
+
+#: comments.php:64
+#@ mazine
+msgid "Log out of this account"
+msgstr "Cerrar sesión en esta cuenta"
+
+#: comments.php:64
+#@ mazine
+msgid "Log out &raquo;"
+msgstr "Cerrar sesión &raquo;"
+
+#: comments.php:66
+#: comments.php:67
+#@ mazine
+msgid "(required)"
+msgstr "(requerido)"
+
+#: comments.php:67
+#@ mazine
+msgid "Mail (will not be published)"
+msgstr "Mail (no será publicado)"
+
+#: comments.php:68
+#@ mazine
+msgid "Website"
+msgstr "Sitio web"
+
+#: comments.php:71
+#@ default
+msgid "Submit comment"
+msgstr ""
+
+#: comments.php:78
+#@ mazine
+msgid "The comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: extensions/contact7submit.php:49
+#@ wpcf7
+msgid "Send"
+msgstr ""
+
+#: extensions/contact7submit.php:55
+#@ wpcf7
+msgid "Sending ..."
+msgstr ""
+
+#: extensions/gmapswidget.php:43
+#@ default
+msgid "Address:"
+msgstr ""
+
+#: extensions/gmapswidget.php:44
+#@ default
+msgid "Phone:"
+msgstr ""
+
+#: extensions/gmapswidget.php:45
+#@ default
+msgid "Fax:"
+msgstr ""
+
+#: extensions/gmapswidget.php:46
+#@ default
+msgid "E-mail:"
+msgstr ""
+
+#: extensions/nggfeatured.php:8
+#@ nggallery
+msgid "Add featured images from the galleries"
+msgstr ""
+
+#: extensions/nggfeatured.php:9
+#@ nggallery
+msgid "NextGEN Mazine Widget"
+msgstr ""
+
+#: extensions/nggfeatured.php:51
+#@ nggallery
+msgid "Title :"
+msgstr ""
+
+#: extensions/nggfeatured.php:57
+#@ nggallery
+msgid "Show :"
+msgstr ""
+
+#: extensions/nggfeatured.php:62
+#@ nggallery
+msgid "Thumbnails"
+msgstr ""
+
+#: extensions/nggfeatured.php:63
+#@ nggallery
+msgid "Original images"
+msgstr ""
+
+#: extensions/nggfeatured.php:67
+#@ nggallery
+msgid "Gallery Url :"
+msgstr ""
+
+#: extensions/nggfeatured.php:73
+#@ nggallery
+msgid "random"
+msgstr ""
+
+#: extensions/nggfeatured.php:76
+#@ nggallery
+msgid "recent added "
+msgstr ""
+
+#: extensions/nggfeatured.php:82
+#@ nggallery
+msgid "Enable IE8 Web Slices"
+msgstr ""
+
+#: extensions/nggfeatured.php:87
+#@ nggallery
+msgid "Width x Height :"
+msgstr ""
+
+#: extensions/nggfeatured.php:93
+#@ nggallery
+msgid "Select :"
+msgstr ""
+
+#: extensions/nggfeatured.php:95
+#@ nggallery
+msgid "All galleries"
+msgstr ""
+
+#: extensions/nggfeatured.php:96
+#@ nggallery
+msgid "Only which are not listed"
+msgstr ""
+
+#: extensions/nggfeatured.php:97
+#@ nggallery
+msgid "Only which are listed"
+msgstr ""
+
+#: extensions/nggfeatured.php:103
+#@ nggallery
+msgid "Gallery ID :"
+msgstr ""
+
+#: extensions/nggfeatured.php:105
+#@ nggallery
+msgid "Gallery IDs, separated by commas."
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:16
+#@ wpsc
+msgid "Mazine Latest Products Widget"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:17
+#@ wpsc
+msgid "Mazine Latest Products"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:32
+#@ wpsc
+msgid "Latest Products"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:92
+#: extensions/wpscspecialsdwidget.php:97
+#@ wpsc
+msgid "Title:"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:97
+#: extensions/wpscspecialsdwidget.php:101
+#@ wpsc
+msgid "Number of products to show:"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:103
+#: extensions/wpscspecialsdwidget.php:108
+#@ wpsc
+msgid "Show Thumbnails"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:108
+#@ wpsc
+msgid "Width:"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:110
+#@ wpsc
+msgid "Height:"
+msgstr ""
+
+#: extensions/wpsclatestwidget.php:184
+#@ wpsc
+msgid "Product Details"
+msgstr ""
+
+#: extensions/wpscmazinecats.php:14
+#@ default
+msgid "Mazine Categories Slider"
+msgstr ""
+
+#: extensions/wpscmazinecats.php:15
+#@ default
+msgid "Categories Slider"
+msgstr ""
+
+#: extensions/wpscmazinecats.php:22
+#@ default
+msgid "Product Categories"
+msgstr ""
+
+#: extensions/wpscspecialsdwidget.php:19
+#@ wpsc
+msgid "Mazine Product Specials Widget"
+msgstr ""
+
+#: extensions/wpscspecialsdwidget.php:22
+#@ wpsc
+msgid "Mazine Product Specials"
+msgstr ""
+
+#: extensions/wpscspecialsdwidget.php:41
+#@ wpsc
+msgid "Product Specials"
+msgstr ""
+
+#: extensions/wpscspecialsdwidget.php:106
+#@ wpsc
+msgid "Show Description"
+msgstr ""
+
+#: extensions/wpscspecialsdwidget.php:203
+#@ wpsc
+msgid "From"
+msgstr ""
+
+#: footer.php:13
+#@ mazine
+msgid "All Rights Reserved. &nbsp;"
+msgstr "Todos los derechos reservados. &nbsp;"
+
+#: footer.php:14
+#: page.php:33
+#: single.php:50
+#@ mazine
+msgid "Entries (RSS)"
+msgstr "Noticias (RSS)"
+
+#: footer.php:14
+#@ mazine
+msgid "Comments (RSS)"
+msgstr "Comentarios (RSS)"
+
+#: functions.php:167
+#@ default
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:168
+#@ default
+msgid "Secondary Header Menu"
+msgstr ""
+
+#: functions.php:169
+#@ default
+msgid "Sidebar Menu"
+msgstr ""
+
+#: functions.php:170
+#@ default
+msgid "Footer Menu"
+msgstr ""
+
+#: header.php:5
+#@ mazine
+msgid "Tag Archive for &quot;"
+msgstr "Archivo de etiquetas para &quot;"
+
+#: header.php:7
+#@ mazine
+msgid " Archive | "
+msgstr "Archivo | "
+
+#: header.php:9
+#@ mazine
+msgid "Search for &quot;"
+msgstr "Búsqueda para &quot;"
+
+#: header.php:13
+#@ mazine
+msgid "Error 404 Not Found | "
+msgstr "Error 404 No encontrado | "
+
+#: page.php:17
+#: single.php:14
+#: single.php:34
+#@ mazine
+msgid "&nbsp;|&nbsp;<small>Edit this entry</small>"
+msgstr "&nbsp;|&nbsp;<small>Editar</small>"
+
+#: page.php:33
+#@ mazine
+msgid "Recieve new post updates:"
+msgstr "Recibir actualizaciones:"
+
+#: page.php:35
+#: single.php:52
+#@ mazine
+msgid "Recieve follow up comments updates"
+msgstr "Reciba actualizaciones sobre los nuevos comentarios"
+
+#: page.php:38
+#: single.php:55
+#@ mazine
+msgid "Comments are closed"
+msgstr "Los comentarios están cerrados"
+
+#: register.php:22
+#: register.php:27
+#@ mazine
+msgid "Success!"
+msgstr "Éxito!"
+
+#: register.php:23
+#@ mazine
+msgid "Check your email for the password and then return to log in."
+msgstr "Le enviamos su contraseña por email. Revise su correo y vuelva para iniciar sesión."
+
+#: register.php:28
+#@ mazine
+msgid "Check your email to reset your password."
+msgstr "Revise su email para restablecer la contraseña."
+
+#: register.php:32
+#@ mazine
+msgid "Have an account?"
+msgstr "¿Tienes una cuenta?"
+
+#: register.php:33
+#@ mazine
+msgid "Log in or sign up! It&rsquo;s fast &amp; <em>free!</em>"
+msgstr "Inicia sesión o regístrate! Es rápido y <em>gratis!</em>"
+
+#: register.php:39
+#: register.php:64
+#: wpsc-shopping_cart_page.php:227
+#@ mazine
+#@ default
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: register.php:43
+#: wpsc-shopping_cart_page.php:228
+#@ mazine
+#@ default
+msgid "Password"
+msgstr "Contraseña"
+
+#: register.php:53
+#@ mazine
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: register.php:60
+#@ mazine
+msgid "Register for this site!"
+msgstr "Registrarse en el sitio!"
+
+#: register.php:61
+#@ mazine
+msgid "Sign up now for the good stuff."
+msgstr "Regístrese ahora."
+
+#: register.php:68
+#@ mazine
+msgid "Your Email"
+msgstr "Su email"
+
+#: register.php:74
+#@ mazine
+msgid "Sign up!"
+msgstr "Regístrate!"
+
+#: register.php:75
+#@ mazine
+msgid "<p>Check your email for the password!</p>"
+msgstr "<p>Le enviamos su contraseña por email. Revise su correo!</p>"
+
+#: register.php:82
+#@ mazine
+msgid "Lose something?"
+msgstr "Perdió algo?"
+
+#: register.php:83
+#@ mazine
+msgid "Enter your username or email to reset your password."
+msgstr "Introduzca su nombre de usuario o email para restablecer la contraseña."
+
+#: register.php:86
+#@ default
+msgid "Username or Email"
+msgstr ""
+
+#: register.php:93
+#@ mazine
+msgid "Reset my password"
+msgstr "Resetear mi contraseña"
+
+#: register.php:94
+#@ mazine
+msgid "<p>A message will be sent to your email address.</p>"
+msgstr "<p>Un mensaje será enviado a tu dirección de email.</p>"
+
+#: register.php:105
+#@ mazine
+msgid "Welcome,"
+msgstr "Bienvenido,"
+
+#: register.php:111
+#@ mazine
+msgid "You&rsquo;re logged in as"
+msgstr "Inició sesión como"
+
+#: register.php:113
+#@ mazine
+msgid "Log out"
+msgstr "Salir"
+
+#: register.php:115
+#@ mazine
+msgid "Admin"
+msgstr "Admin"
+
+#: register.php:116
+#@ mazine
+msgid "Profile"
+msgstr "Perfil"
+
+#: sidebar.php:3
+#@ mazine
+msgid "navigation"
+msgstr "navegación"
+
+#: sidebar.php:7
+#@ mazine
+msgid "archives"
+msgstr "archivos"
+
+#: sidebar.php:13
+#@ mazine
+msgid "Meta"
+msgstr "Meta"
+
+#: single.php:50
+#@ mazine
+msgid "Recieve new post updates"
+msgstr "Recibir nuevas actualizaciones"
+
+#: single.php:62
+#@ mazine
+msgid "about the author"
+msgstr "sobre el autor"
+
+#: single.php:68
+#@ mazine
+msgid "View all posts by"
+msgstr "Ver todas las noticias de"
+
+#: single.php:77
+#@ mazine
+msgid "<span><span>Previous post</span></span>"
+msgstr "<span>Anterior</span>"
+
+#: single.php:80
+#@ mazine
+msgid "<span><span>Next Post</span></span>"
+msgstr "<span>Siguiente</span>"
+
+#: tag.php:7
+#, php-format
+#@ mazine
+msgid "Tag Archives: %s"
+msgstr "Archivo de etiquetas: %s"
+
+#: tag.php:54
+#@ mazine
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Anterior"
+
+#: tag.php:59
+#@ mazine
+msgid "Newer Entries &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: tiadmin/tiadmin.php:323
+#: tiadmin/tiadmin.php:335
+#@ default
+msgid "Save Changes"
+msgstr ""
+
+#: tiadmin/tiadmin.php:343
+#@ default
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: wpsc-cart_widget.php:5
+#@ default
+msgid "product in  your shopping cart<br/>Total: &nbsp; "
+msgstr ""
+
+#: wpsc-cart_widget.php:5
+#@ default
+msgid "products in  your shopping cart<br/>Total: &nbsp; "
+msgstr ""
+
+#: wpsc-cart_widget.php:7
+#@ default
+msgid "details"
+msgstr ""
+
+#: wpsc-cart_widget.php:16
+#: wpsc-shopping_cart_page.php:21
+#@ wpsc
+msgid "Product"
+msgstr ""
+
+#: wpsc-cart_widget.php:17
+#@ wpsc
+msgid "Qty"
+msgstr ""
+
+#: wpsc-cart_widget.php:18
+#: wpsc-featured_product.php:28
+#: wpsc-shopping_cart_page.php:26
+#: wpsc-single_product.php:180
+#: wpsc-user-log.php:105
+#@ wpsc
+#@ default
+msgid "Price"
+msgstr ""
+
+#: wpsc-cart_widget.php:32
+#: wpsc-shopping_cart_page.php:24
+#: wpsc-single_product.php:189
+#@ wpsc
+msgid "Shipping"
+msgstr ""
+
+#: wpsc-cart_widget.php:39
+#@ wpsc
+msgid "Total"
+msgstr ""
+
+#: wpsc-cart_widget.php:42
+#@ wpsc
+msgid "Postage &amp; Tax "
+msgstr ""
+
+#: wpsc-cart_widget.php:50
+#@ wpsc
+msgid "Empty your cart"
+msgstr ""
+
+#: wpsc-cart_widget.php:55
+#@ wpsc
+msgid "Go to Checkout"
+msgstr ""
+
+#: wpsc-cart_widget.php:60
+#@ wpsc
+msgid "Visit the shop"
+msgstr ""
+
+#: wpsc-featured_product.php:22
+#@ default
+msgid "No Image Available<"
+msgstr ""
+
+#: wpsc-featured_product.php:32
+#@ default
+msgid "More Information&hellip;"
+msgstr ""
+
+#: wpsc-grid_view.php:78
+#: wpsc-grid_view.php:133
+#: wpsc-list_view.php:78
+#: wpsc-list_view.php:133
+#: wpsc-products_page.php:82
+#: wpsc-products_page.php:137
+#@ wpsc
+msgid "First Page"
+msgstr ""
+
+#: wpsc-grid_view.php:78
+#: wpsc-grid_view.php:133
+#: wpsc-list_view.php:78
+#: wpsc-list_view.php:133
+#: wpsc-products_page.php:82
+#: wpsc-products_page.php:137
+#@ wpsc
+msgid "&laquo; First"
+msgstr ""
+
+#: wpsc-grid_view.php:84
+#: wpsc-grid_view.php:86
+#: wpsc-grid_view.php:139
+#: wpsc-grid_view.php:141
+#: wpsc-list_view.php:84
+#: wpsc-list_view.php:86
+#: wpsc-list_view.php:139
+#: wpsc-list_view.php:141
+#: wpsc-products_page.php:88
+#: wpsc-products_page.php:90
+#: wpsc-products_page.php:143
+#: wpsc-products_page.php:145
+#@ wpsc
+msgid "Previous Page"
+msgstr ""
+
+#: wpsc-grid_view.php:84
+#: wpsc-grid_view.php:86
+#: wpsc-grid_view.php:139
+#: wpsc-grid_view.php:141
+#: wpsc-list_view.php:84
+#: wpsc-list_view.php:86
+#: wpsc-list_view.php:139
+#: wpsc-list_view.php:141
+#: wpsc-products_page.php:88
+#: wpsc-products_page.php:90
+#: wpsc-products_page.php:143
+#: wpsc-products_page.php:145
+#@ wpsc
+msgid "&lt; Previous"
+msgstr ""
+
+#: wpsc-grid_view.php:94
+#: wpsc-grid_view.php:96
+#: wpsc-grid_view.php:113
+#: wpsc-grid_view.php:149
+#: wpsc-grid_view.php:151
+#: wpsc-grid_view.php:168
+#: wpsc-list_view.php:94
+#: wpsc-list_view.php:96
+#: wpsc-list_view.php:113
+#: wpsc-list_view.php:149
+#: wpsc-list_view.php:151
+#: wpsc-list_view.php:168
+#: wpsc-products_page.php:98
+#: wpsc-products_page.php:100
+#: wpsc-products_page.php:117
+#: wpsc-products_page.php:153
+#: wpsc-products_page.php:155
+#: wpsc-products_page.php:172
+#, php-format
+#@ wpsc
+msgid "Page %s"
+msgstr ""
+
+#: wpsc-grid_view.php:124
+#: wpsc-grid_view.php:179
+#: wpsc-list_view.php:124
+#: wpsc-list_view.php:179
+#: wpsc-products_page.php:128
+#: wpsc-products_page.php:183
+#@ wpsc
+msgid "Next Page"
+msgstr ""
+
+#: wpsc-grid_view.php:124
+#: wpsc-grid_view.php:179
+#: wpsc-list_view.php:124
+#: wpsc-list_view.php:179
+#: wpsc-products_page.php:128
+#: wpsc-products_page.php:183
+#@ wpsc
+msgid "Next &gt;"
+msgstr ""
+
+#: wpsc-grid_view.php:128
+#: wpsc-grid_view.php:183
+#: wpsc-list_view.php:128
+#: wpsc-list_view.php:183
+#: wpsc-products_page.php:132
+#: wpsc-products_page.php:187
+#@ wpsc
+msgid "Last Page"
+msgstr ""
+
+#: wpsc-grid_view.php:128
+#: wpsc-grid_view.php:183
+#: wpsc-list_view.php:128
+#: wpsc-list_view.php:183
+#: wpsc-products_page.php:132
+#: wpsc-products_page.php:187
+#@ wpsc
+msgid "Last &raquo;"
+msgstr ""
+
+#: wpsc-grid_view.php:315
+#: wpsc-list_view.php:315
+#: wpsc-products_page.php:318
+#@ default
+msgid "No Image Available"
+msgstr ""
+
+#: wpsc-grid_view.php:383
+#: wpsc-list_view.php:383
+#: wpsc-products_page.php:386
+#: wpsc-shopping_cart_page.php:22
+#: wpsc-single_product.php:157
+#@ wpsc
+msgid "Quantity"
+msgstr ""
+
+#: wpsc-grid_view.php:430
+#: wpsc-list_view.php:430
+#: wpsc-products_page.php:433
+#: wpsc-single_product.php:174
+#@ wpsc
+msgid "Donation"
+msgstr ""
+
+#: wpsc-grid_view.php:455
+#: wpsc-list_view.php:455
+#: wpsc-products_page.php:458
+#: wpsc-single_product.php:221
+#@ wpsc
+msgid "Buy Now"
+msgstr ""
+
+#: wpsc-grid_view.php:458
+#: wpsc-list_view.php:458
+#: wpsc-products_page.php:461
+#: wpsc-single_product.php:224
+#@ wpsc
+msgid "Add To Cart"
+msgstr ""
+
+#: wpsc-grid_view.php:462
+#: wpsc-list_view.php:462
+#: wpsc-products_page.php:465
+#: wpsc-single_product.php:229
+#@ wpsc
+msgid "Updating cart..."
+msgstr ""
+
+#: wpsc-grid_view.php:467
+#: wpsc-list_view.php:467
+#: wpsc-products_page.php:470
+#: wpsc-single_product.php:234
+#@ wpsc
+msgid "This product has sold out."
+msgstr ""
+
+#: wpsc-grid_view.php:493
+#: wpsc-list_view.php:493
+#: wpsc-products_page.php:496
+#@ wpsc
+msgid "There are no products in this group."
+msgstr ""
+
+#: wpsc-products_page.php:275
+#: wpsc-products_page.php:285
+#@ mazine
+msgid "list view"
+msgstr "Ver lista"
+
+#: wpsc-products_page.php:283
+#@ mazine
+msgid "All products"
+msgstr "Todos los productos"
+
+#: wpsc-shopping_cart_page.php:15
+#@ wpsc
+msgid "Please review your order:"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:44
+#: wpsc-shopping_cart_page.php:75
+#@ wpsc
+msgid "Update"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:58
+#@ wpsc
+msgid "Remove"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:68
+#@ wpsc
+msgid "Coupon is not valid."
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:71
+#@ default
+msgid "Enter your coupon number"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:101
+#@ wpsc
+msgid "Calculate Shipping Price:"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:106
+#@ wpsc
+msgid "Please choose a country below to calculate your shipping costs"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:111
+#@ default
+msgid "Calculate"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:122
+#@ wpsc
+msgid "- Choose a Shipping Rate"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:146
+#@ wpsc
+msgid "Sorry, online ordering is unavailable to this destination and/or weight. Please double check your destination details."
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:172
+#@ wpsc
+msgid "Discount"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:184
+#@ wpsc
+msgid "Total Price"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:195
+#@ default
+msgid "proceed"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:212
+#@ default
+msgid "Not yet a member?"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:213
+#@ default
+msgid "In order to buy from us, you'll need an account. Joining is free and easy. All you need is a username, password and valid email address."
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:229
+#@ default
+msgid "E-mail"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:235
+#@ wpsc
+msgid "Please enter your contact details:"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:237
+#@ wpsc
+msgid "Fields marked with an asterisk must be filled in."
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:255
+#@ default
+msgid "Shipping Address same as Billing Address?"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:298
+#@ default
+msgid "How did you find us"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:301
+#@ default
+msgid "Word of mouth"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:302
+#@ default
+msgid "Advertising"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:303
+#@ default
+msgid "Internet"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:304
+#@ default
+msgid "Existing Customer"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:316
+#@ wpsc
+msgid "Select a payment gateway"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:350
+#@ wpsc
+msgid "I agree to The "
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:351
+#@ wpsc
+msgid "Terms and Conditions"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:376
+#@ wpsc
+msgid "Make Purchase"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:394
+#@ default
+msgid "Your Shopping cart is empty"
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:397
+#: wpsc-transaction_results.php:24
+#@ wpsc
+msgid "Oops, there is nothing in your cart."
+msgstr ""
+
+#: wpsc-shopping_cart_page.php:397
+#: wpsc-transaction_results.php:24
+#@ wpsc
+msgid "Please visit our shop"
+msgstr ""
+
+#: wpsc-single_product.php:126
+#@ wpsc
+msgid "Upload a File"
+msgstr ""
+
+#: wpsc-single_product.php:127
+#@ wpsc
+msgid "Select a file from your computer to include with this purchase."
+msgstr ""
+
+#: wpsc-single_product.php:133
+#@ wpsc
+msgid "Product Options"
+msgstr ""
+
+#: wpsc-single_product.php:168
+#@ wpsc
+msgid "Product in stock"
+msgstr ""
+
+#: wpsc-single_product.php:170
+#@ wpsc
+msgid "Product not in stock"
+msgstr ""
+
+#: wpsc-single_product.php:178
+#@ wpsc
+msgid "Old Price"
+msgstr ""
+
+#: wpsc-single_product.php:182
+#@ wpsc
+msgid "You save"
+msgstr ""
+
+#: wpsc-single_product.php:205
+#@ wpsc
+msgid "Personalize Your Product"
+msgstr ""
+
+#: wpsc-single_product.php:206
+#@ wpsc
+msgid "Complete this form to include a personalized message with your purchase."
+msgstr ""
+
+#: wpsc-user-log.php:16
+#@ wpsc
+msgid "Purchase History"
+msgstr ""
+
+#: wpsc-user-log.php:17
+#@ wpsc
+msgid "Your Details"
+msgstr ""
+
+#: wpsc-user-log.php:18
+#@ wpsc
+msgid "Your Downloads"
+msgstr ""
+
+#: wpsc-user-log.php:38
+#@ wpsc
+msgid "Save Profile"
+msgstr ""
+
+#: wpsc-user-log.php:50
+#@ wpsc
+msgid "File Names"
+msgstr ""
+
+#: wpsc-user-log.php:51
+#@ wpsc
+msgid "Downloads Left"
+msgstr ""
+
+#: wpsc-user-log.php:52
+#: wpsc-user-log.php:104
+#@ wpsc
+msgid "Date"
+msgstr ""
+
+#: wpsc-user-log.php:88
+#@ wpsc
+msgid "You have not purchased any downloadable products yet."
+msgstr ""
+
+#: wpsc-user-log.php:103
+#@ wpsc
+msgid "Status"
+msgstr ""
+
+#: wpsc-user-log.php:109
+#@ wpsc
+msgid "Payment Method"
+msgstr ""
+
+#: wpsc-user-log.php:122
+#@ wpsc
+msgid "No transactions for this month."
+msgstr ""
+
+#: wpsc-user-log.php:135
+#@ wpsc
+msgid "There have not been any purchases yet."
+msgstr ""
+
+#: wpsc-user-log.php:143
+#@ wpsc
+msgid "You must be logged in to use this page. Please use the form below to login to your account."
+msgstr ""
+
+#: wpsc-user-log.php:147
+#@ wpsc
+msgid "Username:"
+msgstr ""
+
+#: wpsc-user-log.php:151
+#@ wpsc
+msgid "Password:"
+msgstr ""
+
+#: wpsc-user-log.php:157
+#@ wpsc
+msgid "Remember me"
+msgstr ""
+
+#: wpsc-user-log.php:162
+#@ wpsc
+msgid "Login &raquo;"
+msgstr ""
+
+#: wpsc-cart_widget.php:59
+#@ wpsc
+msgid "Não há nenhum produto em seu carrinho de compras!"
+msgstr ""
+

@@ -1,0 +1,76 @@
+#main_menu ul li ul li ul{
+	z-index: 3px;
+}
+
+footer button{
+	display:inline;
+	height: 25px;
+	vertical-align: middle;
+}
+
+.even{
+	margin-left:8px !important;
+}
+
+
+.pager select{
+	height: 18px;
+	line-height: 18px;
+	font-size: 10px;
+}
+
+#products{
+	filter: inherit;
+}
+
+input[type="text"]{
+	line-height:23px; 
+}
+
+.gal-wrapper{
+	overflow: hidden;
+}
+
+.newer-older{
+	overflow: hidden;
+}
+
+.images-gallery {
+
+}
+.images-gallery li{
+	z-index: 100;
+}
+
+button.reverse:active{ 
+    background-position: 2px -106px !important;
+}
+
+button:active{ 
+    background-position: 2px -50px !important;
+}
+
+button{
+	outline: none;
+}
+
+.coin-slider{
+	zoom: 1;
+}
+
+* html .clearfix,
+*:first-child+html .clearfix {
+	zoom: 1;
+}
+
+.ic_caption{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+.overlay{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+
+.ui-tabs{
+	zoom: 1;
+}

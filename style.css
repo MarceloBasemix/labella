@@ -1,0 +1,250 @@
+/*
+Theme Name: La Bella
+Theme URI: http://www.labellastore.com/
+Author: Marcelo Souza
+Author URI: http://www.fainearts.com.br/
+Description: Versão 1.0
+
+ */
+
+/*
+ * The Whiteboard Framework is licensed under the GPL license.
+ * Feel free to use the Whiteboard Framework for commercial and non-commercial ventures.
+ * We require a link in the CSS file and request a link on the website
+*/
+
+
+@import url('css/fonts/fonts.css');
+@import url('css/reset.css');
+@import url('css/960.css');
+@import url('css/styles.css');
+@import url('js/fancybox/jquery.fancybox-1.3.4.css');
+@import url('js/jquery-tooltip/jquery.tooltip.css');
+
+header {
+	height:215px;
+}
+	nav {
+		
+	}
+	nav.primary {
+		
+	}
+	nav.footer {
+		
+	}
+	#widget-header {
+		
+	}
+	#widget-alert {
+		
+	}
+
+#content {
+	
+}
+	article {
+		
+	}
+		.featured-thumbnail {
+			
+		}
+		.post-content {
+			
+		}
+			.pagination {
+				
+			}
+	.post-meta {
+		
+	}
+	.post-navigation {
+		
+	}
+
+#comments {
+	
+}
+	li.comment {
+		
+	}
+		.odd {
+			
+		}
+		.even {
+			
+		}
+		.author-comment {
+			
+		}
+		.comment-text {
+			
+		}
+		.comment-meta {
+			
+		}
+			p.gravatar {
+				
+			}
+		.waiting-for-approval {
+			
+		}
+	#trackbacks {
+		
+	}
+		li.trackback {
+			
+		}
+	p#no-comments {
+		
+	}
+	#comments-form {
+		
+	}
+		#respond {
+			
+		}
+		.cancel-comment-reply {
+			
+		}
+
+.page {
+	
+}
+	#page-content {
+		
+	}
+	#page-meta {
+		
+	}
+
+.post {
+	
+}
+	.postContent {
+		
+	}
+	.post-excerpt {
+		
+	}
+
+nav.oldernewer {
+	
+}
+	.older {
+		
+	}
+	.newer {
+		
+	}
+
+.search {
+	
+}
+
+.author {
+	
+}
+#recent-author-posts {
+	
+}
+#recent-author-comments {
+	
+}
+
+#error404 {
+	
+}
+
+#sidebar {
+	
+}
+	#widget-sidebar {
+		
+	}
+		#sidebar-search {
+			
+		}
+		#sidebar-nav {
+			
+		}
+		#sidebar-archives {
+			
+		}
+		#sidebar-meta {
+			
+		}
+		.widget {
+			
+		}
+
+#footer {
+	
+}
+	#widget-footer {
+		
+	}
+	#footer-nav {
+		
+	}
+	
+.no-results {
+	
+}
+
+.widget-area {
+	
+}
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+
+.aligncenter{
+	margin: 0 auto;
+	float: none;
+	display: block;	
+}
+
+.alignleft{
+	float: left;
+	margin: 10px 20px 10px 0;	
+}
+
+.alignright{
+	float:right;
+	margin:10px 0 10px 20px;
+}
+
+.alignnone{
+	float: none;
+	display: block;
+}
+
+.wp-caption {
+	text-align: center;
+	border: #D1D1D1 1px solid;
+	padding:0!important;
+}
+.wp-caption img {
+
+	border: 0 none !important;
+	padding: 0 !important;
+	margin: 4px !important;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.image_container .product_image{
+
+border:none !important;
+
+}

@@ -1,0 +1,216 @@
+a:hover, #posts .post-meta-comments, #post .post-meta-comments, #posts .post-meta-comments a, #post .post-meta-comments a, dd a, .pages ol li.first a:hover, .pages ol li.last a:hover{
+	color:#eea500;
+}
+
+.smaller-title .categories ul li a.selected, .smaller-title .categories ul li a:hover, .pages .selected{
+	color:#eea500;
+}
+
+h5, h5 a, .dropcap2 {
+	color:#eea500;
+}
+
+ul.list li, .post-content ul li, .comment-body ul li, #sub_links li{
+	list-style: url(yellow/bullet.png) inside !important;
+}
+
+label {
+    color: #eea500;
+}
+
+span.pricedisplay{
+	color:#eea500 !important;
+}
+
+h2.category-title, h1.category-title, .caption h3, .caption .price, h3.product-name a, li.item .price-box,  .pricedisplay{
+	color:#eea500;
+	
+}
+
+button, .button, .newer-older a{
+	background: url(yellow/but.png) 0px -108px no-repeat;
+}
+
+button span, .button span, .newer-older a span{
+	background:url(yellow/but.png) 100% -135px no-repeat;
+}
+
+button:hover, .button:hover, .newer-older a:hover{
+	background:url(yellow/but.png) 0 0 no-repeat;
+}
+
+button:hover span, .button:hover span, .newer-older a:hover span{
+	background: url(yellow/but.png) 100% -27px no-repeat;
+}
+
+button span span, .button span span, .newer-older a span span{
+	background:url(yellow/but.png) 0 -81px repeat-x;
+	text-shadow: 1px 1px 1px #d38d00;
+}
+
+button:hover span span, .button:hover span span, .newer-older a:hover span span{
+	background:url(yellow/but.png) 0 -54px repeat-x;
+}
+
+button.reverse{
+	background:url(yellow/but.png) 0 0 no-repeat;
+}
+
+button.reverse span{
+	background: url(yellow/but.png) 100% -27px no-repeat;
+}
+
+button.reverse:hover{
+	background: url(yellow/but.png) 0px -108px no-repeat;
+	
+}
+
+button.reverse:hover span{
+	background:url(yellow/but.png) 100% -135px no-repeat;
+}
+
+button.reverse:hover span{
+	background:url(yellow/but.png) 100% -135px no-repeat;
+}
+
+button.reverse span span{
+	background:url(yellow/but.png) 0 -54px repeat-x;
+}
+
+button.reverse:hover span span{
+	background:url(yellow/but.png) 0 -81px repeat-x;
+	text-shadow: 1px 1px 1px #d38d00;
+}
+
+footer button{
+	background:url(yellow/foot_but.png) 0 -78px no-repeat;
+}
+
+footer button span{
+	background:url(yellow/foot_but.png) 100% -130px no-repeat;
+}
+
+footer button:hover{
+	background:url(yellow/foot_but.png) 0 -52px no-repeat;
+}
+
+footer button:hover span{
+	background:url(yellow/foot_but.png) 100% -104px no-repeat;
+}
+
+footer button span span{
+	background:url(yellow/foot_but.png) 0 -26px repeat-x;
+}
+
+footer button:hover span span{
+	background:url(yellow/foot_but.png) 0 0 repeat-x;
+}
+
+table th{
+	background:url(yellow/th.png) top left repeat-x #007ea6;
+	color: #f4f4f4;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	background: url(yellow/tabs.png) 0 -120px no-repeat;
+}
+
+.ui-tabs .ui-tabs-nav li a{
+	background: url(yellow/tabs.png) 100% -72px no-repeat;
+}
+
+.ui-tabs .ui-tabs-nav li a span{
+	background: url(yellow/tabs.png) 100% 0px repeat-x;
+}
+
+.ui-tabs-selected { 
+	background: url(yellow/tabs.png) 0 -96px no-repeat !important;
+}
+
+.ui-tabs-selected a{ 
+	background: url(yellow/tabs.png) 100% -48px no-repeat !important;
+}
+
+.ui-tabs-selected a span{
+	background: url(yellow/tabs.png) 100% -24px repeat-x !important;
+}
+
+h3.ui-accordion-header {
+	background: url(yellow/acc.png) 0 -31px no-repeat;
+}
+
+h3.ui-accordion-header a{
+	background: url(yellow/acc.png) 100% 0px no-repeat;
+}
+
+h3.ui-accordion-header a div{
+	background: url(yellow/acc.png) 0 -62px repeat-x;
+}
+
+h3.ui-accordion-header.ui-state-active {
+	background: url(yellow/acc.png) 0 -156px no-repeat;
+}
+
+h3.ui-accordion-header.ui-state-active a{
+	background: url(yellow/acc.png) 100% -94px no-repeat;
+}
+
+h3.ui-accordion-header.ui-state-active a div{
+	background: url(yellow/acc.png) 100% -125px repeat-x;
+}
+
+#cart_text a.details{
+	background: url(yellow/details.png) bottom center no-repeat;
+}
+
+#cart_text a.details:hover{
+	background: url(yellow/details.png) top center no-repeat;
+}
+
+#cart_bottom_contents a.checkout{
+	background: url(yellow/checkout.png) bottom center no-repeat;
+}
+
+#cart_bottom_contents a.checkout:hover{
+	background: url(yellow/checkout.png) top center no-repeat;
+}
+
+#main_menu ul li a:hover, #main_menu ul li.current-menu-item a{
+	text-shadow: 1px 1px 1px #c39911;
+}
+
+#main_menu ul li a:hover span, #main_menu ul li.current-menu-item a span {
+	background:url(yellow/cont_bord_hov.png) center left no-repeat;
+}
+
+#main_menu ul li a:hover span span, #main_menu ul li.current-menu-item a span span{
+	background:url(yellow/cont_back_hov.png) center left repeat-x;
+}
+
+#main_menu ul li.alpha a:hover span span, #main_menu ul li.alpha.current-menu-item a span span{
+	background:url(yellow/cont_back_hov.png) center left repeat-x;
+}
+
+#main_menu ul li a:hover, #main_menu ul li.current-menu-item a{
+	background: url(yellow/cont_sep_hov.png) center right no-repeat;
+}
+
+#main_menu ul li.alpha a:hover span, #main_menu ul li.alpha.current-menu-item a span{
+	background:url(yellow/cont_left_hov.png) center left no-repeat;
+}
+
+#search_form a{
+	background:url(yellow/search_but.png) bottom right no-repeat;
+}
+
+#search_form a:hover{
+	background:url(yellow/search_but.png) top right no-repeat;
+}
+
+#order_by.asc{
+	background: url(yellow/arrow_up.png) center right no-repeat;
+}
+
+#order_by.desc{
+	background: url(yellow/arrow_down.png) center right no-repeat;
+}

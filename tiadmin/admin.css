@@ -1,0 +1,109 @@
+/*------UI styles------------*/
+.ui-tabs {
+	position: relative;
+	
+	zoom: 1;
+}
+
+.ui-helper-clearfix {
+	display: block;
+}
+
+.ui-tabs-nav{
+	 border-bottom: 1px solid #CCCCCC;
+}
+.ui-tabs .ui-tabs-nav li {
+	border-style: solid;
+	border-color: #CCC #CCC #F9F9F9;
+	border-width: 1px 1px 0;
+	color: #C1C1C1;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0;
+	font-size: 12px;
+	line-height: 16px;
+	display: inline-block;
+	padding: 4px 14px 6px;
+	text-decoration: none;
+	margin: 0 6px -1px 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}	
+
+.ui-tabs .ui-tabs-nav li a{
+	
+	margin-left: 6px;
+	display: block;
+	text-decoration: none;
+	color: #C1C1C1;
+	
+}
+
+.ui-tabs .ui-tabs-nav li a:hover{
+	color: #D54E21;
+}
+
+.ui-tabs .ui-tabs-nav li a span{
+	
+	display: block;
+	margin-right:6px;
+	line-height: 24px;
+	padding: 0 5px;
+	height: 24px;
+	
+	
+}
+
+.ui-tabs-selected { 
+	
+	z-index:4;
+}
+
+.ui-tabs-selected a{ 
+	color: #000;
+	text-decoration: none;
+	
+	
+}
+
+.ui-tabs-selected a span{
+
+	color: #000;
+}
+
+.ui-tabs .ui-tabs-hide {
+	display: none !important;
+}
+
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 30px 10px 23px;
+
+}
+
+h3 {
+	
+}
+
+#tabs .wrapper{
+	width:270px;
+}
+
+#tabs .wrapper label{
+	height: 24px;
+	line-height: 24px;
+}
+
+#tabs .wrapper input{
+	float:right;
+	width:200px;
+	height: 24px;
+}
+
+.colorscheme td{
+	padding:10px 20px;
+}
