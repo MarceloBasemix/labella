@@ -1,15 +1,15 @@
 <?php
 
-/* if(!wpsc_product_has_stock()){ ?>
+if(!wpsc_product_has_stock()){ ?>
 <style>
-    .addthis_toolbox {
-        margin-top: 60px !important;
+    #soldoutNovo {
+        margin-top: -30px !important;
+		margin-left: 50px !important;        
     }
 </style>
 
 <?php
 }
-*/
 
 
 //-----Customized Function-------------------------------
@@ -159,10 +159,10 @@ $image_height = get_option('single_view_image_height');
             		echo stripslashes( wpautop($the_addl_desc, $br=1));
             	}
                 
-               // nostock_add_button_simples();
+
             ?>
                                                 
- <?php if (wpsc_product_has_stock()) : ?>                                               
+ <?php /*if (wpsc_product_has_stock()) : ?>                                               
  <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="<?php echo wpsc_this_page_url(); ?>" addthis:title="<?php echo wpsc_the_product_title(); ?>">
     <a class="addthis_button_facebook at300b" title="Facebook" href="#"><span class=" at300bs at15nc at15t_facebook"><span class="at_a11y">Share on facebook</span></span></a>
     <a class="addthis_button_twitter at300b" title="Tweet" href="#"><span class=" at300bs at15nc at15t_twitter"><span class="at_a11y">Share on twitter</span></span></a>
@@ -172,9 +172,22 @@ $image_height = get_option('single_view_image_height');
 <div class="atclear"></div></div>
   
 
-<?php endif; ?>
+<?php endif; */?>
 
 
+
+<?php if (wpsc_have_variation_groups()) { ?>
+<style>
+	 #nao_estoque {
+		width: 295px;
+		margin-left: -50px;
+		float: left;
+		position: relative;
+		margin-top: 0px !important;
+	}
+</style>
+
+<?php } ?>
                                                 
                                                 </div>
                                                 
@@ -208,7 +221,7 @@ $image_height = get_option('single_view_image_height');
 							?>
 							<?php if(wpsc_has_multi_adding()): ?>
 								<?php if(wpsc_product_has_stock()){  ?>
-	                                 <fieldset style="color: #960d5d;position: relative;float: right;width: 130px;padding-top: 30px;">
+	                                 <fieldset style="color: #960d5d;position: relative;float: right;width: 130px;padding-top: 40px;">
 	                                 <legend style="float:left;margin-left:15px;"><?php _e('Quantity', 'wpsc'); ?>:&nbsp;</legend>
 	                                 <div class="wpsc_quantity_update" style="height: 30px; margin-top: -10px;">
 									<input type="text" id="wpsc_quantity_update_<?php echo wpsc_the_product_id(); ?>" name="wpsc_quantity_update" size="2" value="1" style="width: 25px; padding: 1px !important;" />
@@ -318,12 +331,23 @@ $image_height = get_option('single_view_image_height');
 									 <div id="soldoutNovo" align="center" style="width: 250px;float:left;">
                                         <p class='soldout'><?php echo __('This product has sold out.', 'wpsc'); ?></p>
                                            <br/><br/>
-                                                                
-                                                                
+                                             
+												<?php  /* FORCA AVISE-ME */
+												if (!wpsc_have_variation_groups()) { }else{ ?>
+																
+														<button id="nao_estoque" class="wpsc_buy_button" onclick="window.open('http://www.labellastore.com/backup/wp-content/plugins/nostock/popup/get_email.php?pid=<?php echo wpsc_the_product_id();?>','newWindow','height=500,width=350,top=200,left=300,scrollbars=1'); return false">
+															<span style="padding-right: 4px;"><span style="font-size: 12px;">Avise-me quando este produto estiver disponível</span></span>
+														</button>
+														
+														
+													
+											<?php } ?>
                                        </div>
-								<?php endif; ?>
 								
 							<?php endif ; ?>
+							
+							<?php endif ; ?>
+							
 					<?php if (!wpsc_have_variation_groups()) {?></form><!--close product_form--> <?php } ?>
 					<div class="clear"></div>	
 					<?php echo wpsc_product_rater(); ?>
@@ -433,9 +457,11 @@ $image_height = get_option('single_view_image_height');
 								<div id="agrupado_txt"><?php echo wpsc_the_variation_price(); ?></div>
 
 								<div id="agrupado_button">
-									<button id="product_<?php echo wpsc_the_variation_id(); ?>_button" class="reverse wpsc_buy_button">
+
+									<button id="product_<?php echo wpsc_the_variation_id(); ?>_button" class="reverse wpsc_buy_button" <?php if (!wpsc_product_has_stock()) { echo "disabled";} ?> >
 												<span><span>Adicionar ao Carrinho</span></span>
 									</button>
+									
 								</div>
 				
 				</form>

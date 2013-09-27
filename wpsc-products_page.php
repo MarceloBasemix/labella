@@ -483,45 +483,13 @@ function mazine_wpsc_pagination($totalpages = '', $per_page = '', $current_page 
 					</div>
 					
 					
-					<?php /*?><?php if(wpsc_the_product_additional_description()) : ?>
-					<div class='additional_description_span'>
-						<a href='<?php echo wpsc_the_product_permalink(); ?>' class='additional_description_link'>
-							<img class='additional_description_button'  src='<?php echo WPSC_URL; ?>/images/icon_window_expand.gif' title='Additional Description' alt='Additional Description' /><?php echo __('More Details', 'wpsc'); ?>
-						</a>
-						<div class='additional_description'><br />
-							<?php
-								$value = '';
-								$the_addl_desc = wpsc_the_product_additional_description();
-								if( is_serialized($the_addl_desc) ) {
-									$addl_descriptions = @unserialize($the_addl_desc);
-								} else {
-									$addl_descriptions = array('addl_desc'=> $the_addl_desc);
-								}
-								
-								if( isset($addl_descriptions['addl_desc']) ) {
-									$value = $addl_descriptions['addl_desc'];
-								}
-							
-								if( function_exists('wpsc_addl_desc_show') ) {
-									echo wpsc_addl_desc_show( $addl_descriptions );
-								} else {
-									echo stripslashes( wpautop($the_addl_desc, $br=1));
-								}
-							?>
-						</div>
-						<br />
-					</div>
-					<?php endif; ?>
-					<?php */ ?>
-					
-					
-						<?php /** the variation group HTML and loop ends here */?>
+					<?php /** the variation group HTML and loop ends here */?>
 						<div class="action" style="position:relative !important;">
 								
 							
 						
 							
-                                                    <div class="wpsc_product_price" <?php if(!wpsc_product_has_stock()){echo 'style="height:20px !important;"';} ?>>
+                                 <div class="wpsc_product_price" <?php if(!wpsc_product_has_stock()){echo 'style="height:20px !important;"';} ?>>
 								<?php if( wpsc_show_stock_availability() ): ?>
 									<?php if(wpsc_product_has_stock()) : ?>
 										<div id="stock_display_<?php echo wpsc_the_product_id(); ?>" class="in_stock"><?php _e('Product in stock', 'wpsc'); ?></div>
