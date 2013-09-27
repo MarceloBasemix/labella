@@ -208,7 +208,7 @@ $image_height = get_option('single_view_image_height');
 							?>
 							<?php if(wpsc_has_multi_adding()): ?>
 								<?php if(wpsc_product_has_stock()){  ?>
-	                                 <fieldset style="color: #960d5d;position: relative;float: right;width: 130px;padding-top: 20px;">
+	                                 <fieldset style="color: #960d5d;position: relative;float: right;width: 130px;padding-top: 30px;">
 	                                 <legend style="float:left;margin-left:15px;"><?php _e('Quantity', 'wpsc'); ?>:&nbsp;</legend>
 	                                 <div class="wpsc_quantity_update" style="height: 30px; margin-top: -10px;">
 									<input type="text" id="wpsc_quantity_update_<?php echo wpsc_the_product_id(); ?>" name="wpsc_quantity_update" size="2" value="1" style="width: 25px; padding: 1px !important;" />
