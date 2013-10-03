@@ -162,19 +162,6 @@ $image_height = get_option('single_view_image_height');
 
             ?>
                                                 
- <?php /*if (wpsc_product_has_stock()) : ?>                                               
- <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="<?php echo wpsc_this_page_url(); ?>" addthis:title="<?php echo wpsc_the_product_title(); ?>">
-    <a class="addthis_button_facebook at300b" title="Facebook" href="#"><span class=" at300bs at15nc at15t_facebook"><span class="at_a11y">Share on facebook</span></span></a>
-    <a class="addthis_button_twitter at300b" title="Tweet" href="#"><span class=" at300bs at15nc at15t_twitter"><span class="at_a11y">Share on twitter</span></span></a>
-    <a class="addthis_button_email at300b" target="_blank" title="Email" href="#"><span class=" at300bs at15nc at15t_email"><span class="at_a11y">Share on email</span></span></a>
-    <a class="addthis_button_compact at300m" href="#"><span class=" at300bs at15nc at15t_compact"><span class="at_a11y">More Sharing Services</span></span></a>
-    <a class="addthis_counter addthis_bubble_style" href="#" style="display: inline-block;"></a>
-<div class="atclear"></div></div>
-  
-
-<?php endif; */?>
-
-
 
 <?php if (wpsc_have_variation_groups()) { ?>
 <style>
@@ -191,8 +178,7 @@ $image_height = get_option('single_view_image_height');
                                                 
                                                 </div>
                                                 
-                                            
-                                                
+                                                                                            
                                                 
 						
 							
@@ -286,6 +272,8 @@ $image_height = get_option('single_view_image_height');
 							
 							</div><!--close wpsc_product_price-->
 
+							
+							
 							<?php if (!wpsc_have_variation_groups()) {?>
 							<input type="hidden" value="add_to_cart" name="wpsc_ajax_action" />
 							<input type="hidden" value="<?php echo wpsc_the_product_id(); ?>" name="product_id" />
@@ -325,6 +313,25 @@ $image_height = get_option('single_view_image_height');
 											<?php _e('Updating cart...', 'wpsc'); ?>
 										</div><!--close wpsc_loading_animation-->
 									</div><!--close wpsc_buy_button_container-->
+									
+									
+<?php if (wpsc_product_has_stock()) : ?>                                               
+ <!-- <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="<?php echo wpsc_this_page_url(); ?>" addthis:title="<?php echo wpsc_the_product_title(); ?>">
+    <a class="addthis_button_facebook at300b" title="Facebook" href="#"><span class=" at300bs at15nc at15t_facebook"><span class="at_a11y">Share on facebook</span></span></a>
+    <a class="addthis_button_twitter at300b" title="Tweet" href="#"><span class=" at300bs at15nc at15t_twitter"><span class="at_a11y">Share on twitter</span></span></a>
+    <a class="addthis_button_email at300b" target="_blank" title="Email" href="#"><span class=" at300bs at15nc at15t_email"><span class="at_a11y">Share on email</span></span></a>
+    <a class="addthis_button_compact at300m" href="#"><span class=" at300bs at15nc at15t_compact"><span class="at_a11y">More Sharing Services</span></span></a>
+    <a class="addthis_counter addthis_bubble_style" href="#" style="display: inline-block;"></a>
+<div class="atclear"></div></div> -->
+ 
+<?php  if( function_exists( do_sociable() ) ){ do_sociable(); } ?>
+
+<?php endif; ?> 									
+									
+									
+									
+									
+									
 								<?php else : ?>
 									
 									

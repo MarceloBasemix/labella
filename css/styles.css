@@ -2644,15 +2644,13 @@ span.currentprice2, span.pricedisplay2{
 	position: relative;
 	float:right;
 	margin-top: -10px;	
-	margin-right: -120px;	
+	margin-right: -10px;
+	width: 80px;	
 }
 
-.addthis_toolbox{
-       position: absolute;
-       margin-top: 80px;
-       left: 63%;
-       width: 300px;
-       float: left;
+
+div.sociable {
+	margin: 20px 0 !important;
 }		
 		
 /* MENU CATEGORIA */
@@ -2674,6 +2672,7 @@ span.currentprice2, span.pricedisplay2{
 	background:	url(../images/labella/produtos/bkg_categoria_bottom.png) bottom center no-repeat;
 	height:11px;
 	width:218px;
+	margin-top: -4px;	
 }
 
 

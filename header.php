@@ -185,14 +185,14 @@ $(document).ready(function() {
 			<div id="cadastre_se">
 				
 				<?php if (!is_user_logged_in()){ ?>
-						<span class="cadastro"><a href="/backup/registrar-se/" style="text-decoration: none;color:#FFFFFF;">Olá, Visitante. Aproveite e Cadastra-se, clicando aqui</a>.</span>
+						<span class="cadastro"><a href="/registrar-se/" style="text-decoration: none;color:#FFFFFF;">Olá, Visitante. Aproveite e Cadastra-se, clicando aqui</a>.</span>
 				<?php }else{ ?>
 					<?php  $nonce= wp_nonce_field(); ?>
 
 					
 					
 						<span class="cadastro">
-							<a href="http://www.labellastore.com/wp-admin/profile.php" style="text-decoration: none;color:#FFFFFF;">Meus Dados</a> | <a href="/backup/products-page/your-account/" style="text-decoration: none;color:#FFFFFF;">Histórico de pedidos </a> | <a href="http://www.labellastore.com/sair/" style="text-decoration: none;color:#FFFFFF;">Sair</a>
+							<a href="http://www.labellastore.com/wp-admin/profile.php" style="text-decoration: none;color:#FFFFFF;">Meus Dados</a> | <a href="/products-page/your-account/" style="text-decoration: none;color:#FFFFFF;">Histórico de pedidos </a> | <a href="http://www.labellastore.com/sair/" style="text-decoration: none;color:#FFFFFF;">Sair</a>
 							</span>
 				<?php } ?>
                                                 
