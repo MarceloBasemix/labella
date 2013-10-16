@@ -461,7 +461,62 @@ $image_height = get_option('single_view_image_height');
                                 	<img src="<?php echo $image['URL']; ?>" width="100" height="50" class="product_image_variation product_image_<?php echo wpsc_the_variation_id(); ?>" />
                                 </div>
                                 <div id="agrupado_txt"><?php echo wpsc_the_variation_name(); ?></div>
-								<div id="agrupado_txt"><?php echo wpsc_the_variation_price(); ?></div>
+                                
+                                
+		<?php 
+		
+		
+		// HACK: Pega o valor principal do produto e do preço especial
+			
+		$id_produto = wpsc_the_product_id ();
+			
+		$precos = $wpdb->get_results ( "SELECT * FROM $wpdb->postmeta WHERE post_id = $id_produto AND meta_key = '_wpsc_price'" );
+		
+			
+		// SE TEM PREÇOS ESPECIAIS NA VARIAÇÃO
+		if (count ( $precos ) == 1) :
+		
+		
+		$variacao_id = $wpdb->get_results ( "SELECT ID FROM $wpdb->posts WHERE post_parent = $id_produto AND post_type = 'wpsc-product' LIMIT 1" );
+		
+		$id_produto_variacao = $variacao_id [0]->ID;
+		
+		if ($id_produto_variacao) {
+				
+			$precos = $wpdb->get_results ( "SELECT * FROM $wpdb->postmeta WHERE post_id = $id_produto_variacao AND meta_key = '_wpsc_special_price'" );
+		} 
+			//print_r($precos);
+		
+		
+		
+		endif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+								<div id="agrupado_txt"><?php echo wpsc_the_product_price($precos[0]->meta_value); ?></div>
 
 								<div id="agrupado_button">
 
